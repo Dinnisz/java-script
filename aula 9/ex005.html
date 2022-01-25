@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 1 passo
+    </title>
+    <style>
+        body {
+            background-color: rgb(8, 116, 116);
+            color: white;
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciar estudos Dom</h1>
+    <p> Aqui vai o resultado</p>
+    <p>Aprendenso a usar <strong>Dom</strong> em Java-script</p>
+    <div>Clique em mim</div>
+
+    <script>
+        corpo = document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        corpo.style.color = 'white'
+        corpo.style.background = 'black'
+        window.document.write(p1.innerText)
+        window.alert(p1.innerHTML)
+    </script>
+
+</body>
+
+</html>
